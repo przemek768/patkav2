@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* Navbar container styles */
+.navbar {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+
+/* Menu icon styles */
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* Menu icon animation for opening menu */
+.menu-open {
+    transform: rotate(90deg);
+}
+
+/* Side menu styles */
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Initially hide the menu off-screen */
+    width: 250px;
+    height: 100vh;
+    background: #D2D2D2;
+    transform: rotate(0deg);
+    padding-top: 60px;
+    transition: left 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+/* Side menu links styles */
+.side-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 5px 0;
+    padding: 5px 20px;
+    transition: background-color 0.3s ease;
+    color: black;
+    z-index: 1;
+    font-family: Literata;
+}
+
+.side-menu a:hover {
+    background-color: #555;
+}
+
+/* Show the menu when it's open */
+.side-menu.open {
+    left: 0;
+}
+.hamburger-react{
+    z-index: 2;
+}

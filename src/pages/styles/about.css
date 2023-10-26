@@ -1,0 +1,87 @@
+.aboutdiv{
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutdiv .text1{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutdiv .text2{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.insta{
+    width: 40px;
+    height: 42px;
+    bottom: 19px;
+    left: -100%;
+    position: relative;
+    /* Animacja trwająca 1 sekundę, efekt slide-in */
+    animation: slide-in 1s forwards;
+}
+
+@keyframes slide-in {
+    /* Ustawienie początkowej pozycji poza ekranem */
+    from {
+        left: -100%;
+    }
+    /* Ustawienie końcowej pozycji na ekranie (brak przesunięcia) */
+    to {
+        left: 43px;
+    }
+}
+
+.homebottomtext{
+    color: #000;
+    text-align: center;
+    font-family: Nothing You Could Do;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 352px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    right: 15px;
+    height: 77px;
+    position: relative;
+    bottom: 19px;
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.aboutbottom{
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 100%;
+}
+.abouttext{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Literata', serif;
+    font-size: 38px;
+}
