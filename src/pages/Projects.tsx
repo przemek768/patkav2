@@ -1,5 +1,5 @@
 // src/pages/Projects.tsx
-import React, { useState } from "react";
+import React from "react";
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 import "./styles/project.css"
 import insta from"../assets/img/png-clipart-instagram-logo-computer-icons-insta-logo-text-comput.png"
@@ -18,6 +18,14 @@ import image11 from "../assets/img/image11.png"
 import image12 from "../assets/img/image12.png"
 import image13 from "../assets/img/image13.png"
 import image14 from "../assets/img/image14.png"
+import image15 from "../assets/img/image15.png"
+import image16 from "../assets/img/image16.png"
+import image17 from "../assets/img/image17.jpg"
+import image18 from "../assets/img/image18.jpg"
+import image19 from "../assets/img/image19.jpg"
+import image20 from "../assets/img/image20.png"
+import image21 from "../assets/img/image21.jpg"
+import image22 from "../assets/img/image22.jpg"
 const images = [
     image1,
     image2,
@@ -33,6 +41,14 @@ const images = [
     image12,
     image13,
     image14,
+    image15,
+    image16,
+    image17,
+    image18,
+    image19,
+    image20,
+    image21,
+    image22
 ];
 const Projects = () => {
 
@@ -52,7 +68,7 @@ const Projects = () => {
                     ))}
                 </Masonry>
             </ResponsiveMasonry>
-            <a className="insta-fixed" href="https://www.instagram.com/justpartof_art/?hl=pl" target="_blank" rel="noopener noreferrer"><img className="insta" src={insta} /></a>
+            <a className="insta-fixed" href="https://www.instagram.com/justpartof_art/?hl=pl" target="_blank" rel="noopener noreferrer"><img className="insta" src={insta} alt="img" /></a>
         </div>
     );
 };

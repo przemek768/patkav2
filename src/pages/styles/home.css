@@ -65,8 +65,7 @@ body{
 .darkgrey{
     background: #D2D2D2;
     width: 50%;
-    height: 100%
-;
+    height: 100%;
 }
 .insta{
     width: 40px;
@@ -114,4 +113,68 @@ body{
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+@media (max-width: 1100px){
+    .hometext{
+        left: 71px;
+        font-size: 84px;
+    }
+    .homesecond .img{
+        left: -428px;
+    }
+    .homesecond{
+        width: 705px;
+    }
+    .pat{
+        width: 321px;
+        right: 35px;
+    }
+}
+.mobile-img{
+    display: none;
+}
+.mobile-bottom-text{
+    display: none;
+}
+@media (max-width: 768px) {
+    .homesecond .img{
+        display: none;
+    }
+    .mobile-img{
+        display: block;
+        width: 36px;
+        transform: rotate(90deg);
+        position: relative;
+        margin-bottom: -53px;
+        margin-left: 26%;
+    }
+    .homesecond{
+        width: 278px;
+        height: 284px;
+        border: 7px solid #000;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hometext{
+        font-size: 41px;
+        left: 56px;
+        top: auto;
+    }
+    .homebottomtext{
+        display: none;
+    }
+    .mobile-bottom-text{
+        font-family: "Nothing You Could Do";
+        font-size: 16px;
+        text-align: center;
+        display: block;
+        line-height: 21px;
+        padding-top: 14px;
+    }
+    .pat{
+        width: 142px;
+        right: -2px;
+        top: 12px;
+        height: 252px;
+    }
 }
