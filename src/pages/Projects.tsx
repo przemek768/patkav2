@@ -26,6 +26,19 @@ import image19 from "../assets/img/image19.jpg"
 import image20 from "../assets/img/image20.png"
 import image21 from "../assets/img/image21.jpg"
 import image22 from "../assets/img/image22.jpg"
+import image23 from "../assets/img/image23.png"
+import image24 from "../assets/img/image24.png"
+import image25 from "../assets/img/image25.png"
+import image26 from "../assets/img/image26.jpg"
+import image27 from "../assets/img/image27.jpg"
+import image28 from "../assets/img/image28.png"
+import image29 from "../assets/img/image29.jpg"
+import image30 from "../assets/img/image30.png"
+import image31 from "../assets/img/image31.png"
+import image32 from "../assets/img/image32.jpg"
+import image33 from "../assets/img/image33.jpg"
+import image34 from "../assets/img/image34.jpg"
+import image35 from "../assets/img/image35.jpg"
 const images = [
     image1,
     image2,
@@ -48,7 +61,20 @@ const images = [
     image19,
     image20,
     image21,
-    image22
+    image22,
+    image23,
+    image24,
+    image25,
+    image26,
+    image27,
+    image28,
+    image29,
+    image30,
+    image31,
+    image32,
+    image33,
+    image34,
+    image35
 ];
 const Projects = () => {
 
